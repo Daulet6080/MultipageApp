@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.multi_pageapp.fragment.MainFragment"
+        android:label="MainFragment" />
+
+    <fragment
+        android:id="@+id/intentsFragment"
+        android:name="com.example.multi_pageapp.fragment.IntentsFragment"
+        android:label="IntentsFragment" />
+
+    <fragment
+        android:id="@+id/foregroundServiceFragment"
+        android:name="com.example.multi_pageapp.fragment.ForegroundServiceFragment"
+        android:label="ForegroundServiceFragment" />
+
+    <fragment
+        android:id="@+id/broadcastReceiverFragment"
+        android:name="com.example.multi_pageapp.fragment.BroadcastReceiverFragment"
+        android:label="BroadcastReceiverFragment" />
+
+    <fragment
+        android:id="@+id/contentProviderFragment"
+        android:name="com.example.multi_pageapp.fragment.ContentProviderFragment"
+        android:label="ContentProviderFragment" />
+</navigation>
